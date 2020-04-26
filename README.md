@@ -2,8 +2,12 @@
 
 Team members:
 
-* Kaegan Casey
-* Priyanka Khanal
+* Kaegan Casey (kaca8938@colorado.edu)
+* Priyanka Khanal (prkh8490@colorado.edu)
 * Binod Pandey (binodpan@us.ibm.com)
-* Cassidy Stearns 
-* Yuki Yan
+* Cassidy Stearns (cast5672@colorado.edu)
+* Yuki Yan (yiya9607@colorado.edu)
+
+Professor:
+
+* Peter Zhang (peigang.zhang@colorado.edu)
