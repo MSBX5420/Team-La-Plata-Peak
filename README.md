@@ -2,9 +2,8 @@
 
 Team members:
 
-
 * Kaegan Casey
 * Priyanka Khanal
-* Binod Pandey
+* Binod Pandey (binodpan@us.ibm.com)
 * Cassidy Stearns 
 * Yuki Yan
