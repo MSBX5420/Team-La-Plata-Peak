@@ -16,6 +16,8 @@ The purpose of this project was to get hands-on experience ingesting and analyzi
 1. [Ingest 2019 yellow and green taxi data to S3 bucket](https://github.com/MSBX5420/Team-La-Plata-Peak/blob/master/Creating%20S3%20Bucket%20and%20Copying%20Data/Creating%20S3%20Bucket%20and%20Copying%20Data.ipynb)
 2. [Optimize data using AWS Glue](https://github.com/MSBX5420/Team-La-Plata-Peak/blob/master/Optimizing%20Data%20for%20Analysis/Optimizing%20Data%20for%20Analysis.ipynb)
 3. [Author queries using Amazon Athena and create visualizations in seaborn and matplotlib](https://github.com/MSBX5420/Team-La-Plata-Peak/tree/master/Queries)
+4. [Machine Learning Algorithms](https://github.com/MSBX5420/Team-La-Plata-Peak/blob/master/Creating%20S3%20Bucket%20and%20Copying%20Data/Creating%20S3%20Bucket%20and%20Copying%20Data-Machine_LearningPart1.ipynb)
+
 
 
 
