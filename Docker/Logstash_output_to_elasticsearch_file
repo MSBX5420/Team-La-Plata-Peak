@@ -1,0 +1,9 @@
+output {
+	if [tag] == "green" {
+		elasticsearch {
+			hosts => [ "localhost:9200" ]
+			index => "green"
+                }
+	}
+} 
+

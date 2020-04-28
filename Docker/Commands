@@ -1,0 +1,62 @@
+
+sudo docker pull sebp/elk:761
+sudo docker run --ulimit nofile=65535:65535 -p 5601:5601 -p 9200:9200 -p 5044:5044 -it --name elk sebp/elk:761
+
+
+sudo docker run -p 5601:5601 -p 9200:9200 -p 5044:5044 -it \
+    -e LOGSTASH_START=0 -e KIBANA_START=0 --name elk sebp/elk
+
+sudo docker run -p 5601:5601 -p 9200:9200 -p 5044:5044 -it -e ELASTICSEARCH_START=0 -e KIBANA_START=0 --name elk sebp/elk:761
+
+git push origin master
+input {
+  s3 {
+        "access_key_id" => "1234"
+        "secret_access_key" => "secret"
+        "bucket" => "logstash-test"
+        "additional_settings" => {
+          "force_path_style" => true
+          "follow_redirects" => false
+        }
+      }
+    }
+
+
+sudo docker 
+
+To access docker shell
+docker exec -it /elk /bin/bash
+
+
+input {
+  s3 {
+    "access_key_id" => "ASIA3NQ6UHKVQHPR3W7J"
+    "secret_access_key" => "Wy5mxk1JO/6vjqBiYeiWM64h8y4BH19FyxlTMwtC"
+    "region" => "us-east-1"
+    "bucket" => "la-plata-peak"
+    "prefix" => "Logs"
+    "interval" => "10"
+    "additional_settings" => {
+      "force_path_style" => true
+      "follow_redirects" => false
+                }
+  }
+}
+
+
+
+input {
+  s3 {
+    access_key_id => "ASIA3NQ6UHKV6TNGIKCY"
+    secret_access_key => "XHP2/TTfwo+cYmIpU7V+rzLm54HOfqEYfNtuVIs7"
+    region => "us-east-1"
+    bucket => "la-plata-peak"
+    prefix => "Logs"
+    interval => "10"
+    additional_settings => {
+      force_path_style => true
+      follow_redirects => false
+                }
+  }
+}
+
