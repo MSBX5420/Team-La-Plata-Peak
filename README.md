@@ -1,7 +1,7 @@
 # New York Taxi Data Project 
 A big data project exploring [New York City taxi data](https://registry.opendata.aws/nyc-tlc-trip-records-pds/) for CU Boulder Spring 2020 class MSBX5420: Unstructured Data Modeling & Analysis.
 
-Contributors: Kaegan Casey, Priyanka Khanal, Binod Pandey, Cassidy Stearns
+Contributors: Kaegan Casey, Priyanka Khanal, Binod Pandey, Cassidy Stearns, Yuki Yan
 
 Professor: Peter Zhang
 
